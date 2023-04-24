@@ -16,7 +16,7 @@ In conclusion, our investigation into the safety of universities is a timely and
 
 DATA SOURCES:
 
-FBI Crime Data - we will use the FBI's Uniform Crime Reporting (UCR) Program data to obtain crime rates in universities and surrounding areas. We will download the data from the FBI's website: https://www.fbi.gov/services/cjis/ucr
+Crime in the United States, Offense and Population Percent Distribution by Region, 2018 - we will use the FBI's Uniform Crime Reporting (UCR) Program data to obtain crime rates in universities and surrounding areas. We will download the data from the FBI's website: https://www.fbi.gov/services/cjis/ucr
   - Downloaded data from a web URL
   - Data is collected by the FBI UCR division. It contains a compilation of the volume and rate of violent and property crime offenses for the nation and by state using Summary Reporting System data and summarized data from the National Incident-Based Reporting System (NIBRS). Data at the level of local law enforcement agencies are also provided for those contributors supplying 12 months of complete offense data. This report includes arrests, clearances, trends, and law enforcement employee data.
   - 4 observations
