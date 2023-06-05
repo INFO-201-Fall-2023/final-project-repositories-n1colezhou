@@ -7,6 +7,7 @@ library(reshape2)
 library(plotly)
 library(maps)
 library(mapdata)
+library(mapproj)
 
 source("final_project.r")
 df <- read.csv("final_df.csv")

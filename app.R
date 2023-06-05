@@ -1,9 +1,13 @@
 library(dplyr)
-library(ggplot2)
 library(stringr)
-library(shiny)
+library(tidyr)
+library(tidyverse)
+library(ggplot2)
+library(reshape2)
 library(plotly)
 library(maps)
+library(mapdata)
+library(mapproj)
 
 source("analysis.r")
 df <- read.csv("final_df.csv")
@@ -162,7 +166,7 @@ summary_pg <- tabPanel("Summary",
                            tags$li(tags$a(href = "https://www.usnews.com/education/best-colleges/applying/articles/college-campus-safety-questions-to-ask", "College Campus Safety: Questions to Ask")),
                            tags$li(tags$a(href = "https://www.insidehighered.com/news/2022/06/22/survey-campuses-perceived-safe-some-students-not-all", "Students Mostly Feel Safe on College Campuses, but Not Equally So"))
                          ),
-                         h3("By: Nicole Zhou and Neda Bokhari"),
+                         h3("By: Nicole Zhou and Neda Bokhari")
                        ))
 
 
