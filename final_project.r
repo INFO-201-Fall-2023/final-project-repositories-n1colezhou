@@ -2,6 +2,7 @@ library(dplyr)
 library(stringr)
 library(testthat)
 library("readxl")
+library(writexl)
 
 # Loads in the datasets
 df_1 <- read.csv("crime_in_us.csv")
