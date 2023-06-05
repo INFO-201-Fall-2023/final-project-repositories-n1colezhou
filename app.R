@@ -115,7 +115,7 @@ drilldown_pg <- tabPanel("Drill Down",
                              sidebarPanel(
                                radioButtons(
                                  inputId = "data_map",
-                                 label = "Select One:",
+                                 label = "Select a Region:",
                                  choices = list("All" = 0, "West" = 1, "Washington" = 2),
                                  selected = 0 
                                ),
@@ -142,6 +142,7 @@ drilldown_pg <- tabPanel("Drill Down",
 
 summary_pg <- tabPanel("Summary",
                        fluidPage(
+                         img(src = "https://www.birmingham.ac.uk/generic/c-link/images/c-link-home-banner-725x244b.jpg"),
                          h1("Summary"),
                          h2("The Crime Analysis Project: Understanding Safety on College Campuses"),
                          p("Our project aims to provide a comprehensive analysis of the safety of universities by comparing their crime rates with those of their surrounding areas. We delve deeper into different types of crimes, including theft, assault, sexual offenses, and specifically focus on rape. By analyzing crime statistics and reports from various universities across the United States, we offer a data-driven analysis that goes beyond just the numbers."),
